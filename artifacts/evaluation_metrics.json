@@ -1,0 +1,14 @@
+{
+  "avg_log_predictive_density": -1.551223343365773,
+  "negative_log_predictive_density": 1.551223343365773,
+  "rmse_log_scale": 1.2903656306196922,
+  "rmse_runs_scale": 30.74645949912143,
+  "mae_runs_scale": 20.51047283214602,
+  "brier_score_oof_vs_low_score": 0.10344560000778784,
+  "corr_p_oof_vs_low_score": 0.7848879416344502,
+  "oof_flag_rate": 0.2841091492776886,
+  "low_score_rate_flagged": 1.0,
+  "low_score_rate_not_flagged": 0.30269058295964124,
+  "oof_flag_precision": 1.0,
+  "average_transition_diagonal": 0.5109157371541667
+}
