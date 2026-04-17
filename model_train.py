@@ -56,9 +56,9 @@ DATA_PATH = "/content/final_cricket_data (4).xlsx"   # change if needed
 SEED = 42
 
 # Stan/NUTS settings
-CHAINS = 1
-WARMUP = 100
-SAMPLES = 100
+CHAINS = 4
+WARMUP = 1000
+SAMPLES = 1000
 ADAPT_DELTA = 0.95
 MAX_TREEDEPTH = 15
 
