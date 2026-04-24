@@ -1,0 +1,26 @@
+EDA interpretation notes for thesis drafting
+============================================================
+Total innings analysed: 623
+Total players analysed: 18
+Date range: 2021-03-12 to 2025-11-16
+
+1. Score distribution
+   The raw score distribution is strongly right-skewed, with a median of 15.0 and a maximum of 210.
+   This supports the use of a transformed score and a heavy-tailed observation model rather than a simple normal model.
+
+2. Censoring
+   Not-out innings account for 14.4% of observations, indicating that censoring is non-negligible and should be modelled explicitly.
+
+3. Contextual covariates
+   The sample contains 3 match-location categories and opposition ranks ranging from 1 to 19.
+   These contextual variables are therefore empirically meaningful candidates for the observation equation of the Bayesian model.
+
+4. Player heterogeneity
+   Large differences in average score, not-out rate, and innings counts across players suggest that player-specific effects are required.
+
+5. Temporal dynamics
+   Player trajectories fluctuate noticeably over innings and calendar time, which supports the idea that batting form is time-varying and can be represented as a latent state process.
+
+6. Transition into Bayesian modelling chapter
+   Overall, the EDA shows skewed and heavy-tailed score behaviour, meaningful censoring, heterogeneity across players, and visible temporal variation.
+   Together, these findings motivate a Bayesian state-space model with player-level effects, contextual covariates, and censoring-aware score likelihoods.
