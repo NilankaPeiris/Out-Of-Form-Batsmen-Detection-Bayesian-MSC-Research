@@ -1,0 +1,7 @@
+Exploratory statistical checks
+============================================================
+Spearman correlation: FinalScore vs RestDays      = -0.031 (p=0.4468)
+Spearman correlation: FinalScore vs OpponentRank = 0.145 (p=0.0003)
+Spearman correlation: FinalScore vs Innings      = 0.094 (p=0.0184)
+
+These are only descriptive checks. In the thesis, avoid treating them as final evidence because the planned model is dynamic, hierarchical, and censoring-aware.
