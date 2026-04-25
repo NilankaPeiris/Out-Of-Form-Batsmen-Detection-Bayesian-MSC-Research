@@ -1,0 +1,15 @@
+{
+    "cmdstan_csv_found": true,
+    "rhat_available": true,
+    "ess_available": true,
+    "trace_plots_available": true,
+    "message": "MCMC diagnostics generated successfully. R-hat, ESS summaries, and trace plots were saved.",
+    "trace_plot_files": [
+        "model_evaluation/trace_plots/trace_alpha_state.png",
+        "model_evaluation/trace_plots/trace_beta.png",
+        "model_evaluation/trace_plots/trace_sigma_state.png",
+        "model_evaluation/trace_plots/trace_nu.png",
+        "model_evaluation/trace_plots/trace_init_state.png",
+        "model_evaluation/trace_plots/trace_transition_matrix.png"
+    ]
+}

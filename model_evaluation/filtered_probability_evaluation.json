@@ -1,0 +1,16 @@
+{
+    "mean_oof_probability": 0.4131870056856544,
+    "mean_nf_probability": 0.31307919344801155,
+    "mean_hf_probability": 0.27373380086339877,
+    "median_oof_probability": 0.254282652474125,
+    "median_nf_probability": 0.3460296591344572,
+    "median_hf_probability": 0.2488083966515035,
+    "probability_sum_mean": 0.9999999999970648,
+    "probability_sum_min": 0.9999999997791742,
+    "probability_sum_max": 1.0000000002047775,
+    "most_likely_state_counts": {
+        "OOF": 245,
+        "HF": 205,
+        "NF": 173
+    }
+}

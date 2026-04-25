@@ -1,0 +1,11 @@
+{
+    "simulated_mean_runs": 33.62776876167538,
+    "simulated_median_runs": 22.97152626508028,
+    "simulated_std_runs": 37.590038552135205,
+    "simulated_duck_rate_score_less_than_1": 0.0422,
+    "simulated_low_score_rate_less_than_10": 0.2476,
+    "simulated_fifty_plus_rate": 0.21,
+    "simulated_century_plus_rate": 0.0506,
+    "simulated_max_runs": 589.0616116557613,
+    "note": "This PPC is approximate because it uses posterior mean parameters only. A full Bayesian PPC should use draw-level posterior samples."
+}
