@@ -1,7 +1,7 @@
 # Core Data Science & Bayesian Modeling
 numpy>=1.24.0
 pandas>=2.0.0
-scipy>=1.10.0
+scipy
 
 # Bayesian Inference & Stan
 cmdstanpy>=1.1.0
