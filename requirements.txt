@@ -15,4 +15,4 @@ seaborn>=0.12.0
 streamlit>=1.28.0
 
 # Excel File Support
-openpyxl>=3.10.0
+openpyxl
